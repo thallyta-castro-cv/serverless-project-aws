@@ -13,7 +13,7 @@ Pré requisitos:
 #### Credenciais AWS
 
 - Criar usuário: AWS Management Console -> IAM Dashboard -> Create New User -> <nome do usuário> -> Permissions "Administrator Access" -> Programmatic Access -> Dowload Keys
-- No terminal: ```$ serverless config credentiaals --provide aws --key<sua-key> --secrete<sua-secret>``` -> colar as credenciais geradas anteriormente
+- No terminal: ```$ serverless config credentiaals --provide aws --key<sua-key> --secret<sua-secret>``` -> colar as credenciais geradas anteriormente
 - 
 #### Configurar o framework Serverless
 ```$ npm i -g serverless```
